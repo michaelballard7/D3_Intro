@@ -18,6 +18,6 @@ rect.attr("width","24")
         return  d*20
     })
     .attr('y', function(d,i){
-        console.log(d)
+        console.log(i)
         return d * 12
     })
